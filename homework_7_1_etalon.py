@@ -52,7 +52,7 @@ def rename_files(desired_name, num_digits, source_ext, target_ext, name_range=No
     # Получаем список файлов в текущей директории
     files = os.listdir('test_folder')
 
-    # Фильтруем только нужные файлы с указанным расширением
+    # Фильтруем только нужные файлы с указанным расширением(source_ext)
     filtered_files = [file for file in files if file.endswith(source_ext)]
     # Сортируем файлы по имени
     filtered_files.sort()
