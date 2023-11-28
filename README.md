@@ -1,6 +1,6 @@
 # python_seminar_7
 
-**Семинар 7 Python project**
+## Семинар 7 Python project
 
 **Файлы и файловая система**
 План урока:
